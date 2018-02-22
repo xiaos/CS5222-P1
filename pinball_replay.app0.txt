@@ -1,0 +1,20 @@
+Enabled messages [UnixVersion()] 44  info: Informational messages (enabled by default)
+Pinball basename: /home/csz/CS5222/cpu2006_pinballs/astar/pinball_short.pp/pinball_t0r1_warmup3000_prolog0_region1000000005_epilog0_001_1-00000.0
+Focus thread: 0
+Replaying on 'Linux', recorded on 'Linux'
+Using the new SYSCALL_REPLAYER
+Found VDSO in page 0x7ffcee59b000
+NOP sequence address allocated in empty range 0x000424000 
+Focus thread: 0
+Replaying on 'Linux', recorded on 'Linux'
+Using the new SYSCALL_REPLAYER
+[0] Started Replaying thread OSPid: 20889 OSTid: 20889
+[0] Loading dynamic pages
+[0] Restoring initial pages
+[0] Initial checkpoint restored for thread
+[0] All threads were created, ready to replay 
+[0] ThreadStart Initial IP: 0x0004091e0
+[0] End of thread reached: 1000003004 final count: 1000003004
+[0] Finished replaying thread OSPid: 20889 OSTid: 20889, 1000003004 instructions
+[0] ThreadFini
+Process exit with status 0
