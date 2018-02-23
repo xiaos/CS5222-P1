@@ -46,7 +46,7 @@ BranchPredictor* BranchPredictor::create(core_id_t core_id)
       }
       else if (type == "two_level_adaptive")
       {
-	 return new TwoLevelAdaptiveBranchPredictor("branch_predictor", core_id);      
+	 return new TwoLevelAdaptiveBranchPredictor("branch_predictor", core_id, 1048576);      
       }
       else if (type == "pentium_m")
       {
