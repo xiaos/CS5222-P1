@@ -43,6 +43,8 @@ void TwoLevelAdaptiveBranchPredictor::update(bool predicted, bool actual, IntPtr
 	}
 	m_bhr &= m_mask;
 	
+	LOG_PRINT("actual %d, m_bhr %d", actual, m_bhr);
+
    	//update the entry.
 	if(actual)
 	{
